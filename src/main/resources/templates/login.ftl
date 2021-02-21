@@ -3,6 +3,9 @@
 <html>
 <head>
     <meta charset="utf-8"/>
+    <link rel="shortcut icon" type="image/ico" href='${model["app_path"]}/resources/favicon.ico'/>
+    <link rel='stylesheet' href='${model["app_path"]}/resources/css/logistics.css'>
+    <script src='${model["app_path"]}/resources/js/logistics.js'></script>
 </head>
 <body>
 <h2>Логистика поставок</h2>

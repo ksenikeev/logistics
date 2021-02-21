@@ -39,10 +39,12 @@ public class LoginController {
         String path = request.getContextPath();
         model.addAttribute("app_path", path);
 
+/*
         HttpSession session = request.getSession(false);
         if (session != null) {
                 return "/index";
         }
+*/
 
         //Session is null, try login
         User user = userDao.findByUsername(username);
@@ -57,4 +59,6 @@ public class LoginController {
 
         return "/login";
     }
+
+
 }

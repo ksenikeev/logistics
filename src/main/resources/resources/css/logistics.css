@@ -1,0 +1,8 @@
+body {
+    background: #EAEAEA;
+    color: #000000;
+    font: 16px 'Segoe UI', Arial, Tahoma, sans-serif;
+    line-height: 18px;
+
+    -webkit-font-smoothing: antialiased;
+}
